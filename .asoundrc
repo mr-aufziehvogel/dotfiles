@@ -1,0 +1,21 @@
+# The usb_stream plugin configuration
+
+pcm.!usb_stream {
+	@args [ CARD ]
+	@args.CARD {
+		type string
+		default "3"
+	}
+	type usb_stream
+	card $CARD
+}
+
+ctl.!usb_stream {
+	@args [ CARD ]
+	@args.CARD {
+		type string
+		default "3"
+	}
+	type hw
+	card $CARD
+}

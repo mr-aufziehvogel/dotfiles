@@ -1,0 +1,17 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! User: Sergio Morales
+! Copyright: Sergio Morales
+! ------------------------------------------------------------------------------
+! Use extended color scheme
+rofi.color-enabled:                  true
+! Color scheme for normal row
+rofi.color-normal:                   #e7e8eb,#333333,#e7e8eb,#333333,#ffffff
+! Color scheme for urgent row
+rofi.color-urgent:                   #e7e8eb,#dc322f,#f5f5f5,#5294e2,#dc322f
+! Color scheme for active row
+rofi.color-active:                   #e7e8eb,#c2cad0,#f5f5f5,#5294e2,#c2cad0
+! Color scheme window
+rofi.color-window:                   #e7e8eb,#f5f5f5
+! Separator style (none, dash, solid)
+rofi.separator-style:                none
